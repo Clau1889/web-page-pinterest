@@ -1,5 +1,4 @@
 body{
-  background-color: #B0E0E6;
   box-sizing: border-box;
 }
 
@@ -16,27 +15,40 @@ header > h1{
   width: 12%;
 }
 
+i{
+  width: 150%;
+}
+
+#search{
+  width: 60%;
+}
+
 header > form{
   width: 65%;
 }
 
-header > navbar {
+header > nav{
   width: 20%;
 }
 
-.word{
-  margin: 0.3cm;
+nav > div *{
+  color: #FFFFFF;
+  float: left;
+  font-family: 'Reem Kufi', sans-serif;
+  margin-right:1cm;
+  margin-left: 2mm;
+  margin-top: 3mm;
+  width:10%;
 }
 
 img{
-  border-radius: 20%;
+  border-radius: 10%;
   width: 100%;
 }
 
 .image:hover{
   border: 2mm groove #FFFAFA;
-  border-radius: 20%;
-  opacity: 0.5;
+  border-radius: 10%; 
   transform: scale3D(2.5);
 }
 
@@ -44,6 +56,7 @@ img{
   float: left;
   left: 20%;
   margin: 0.5cm 0.8cm;
+  width: 27%;
 }
 
 .pin{
@@ -51,8 +64,18 @@ img{
 }
 
 .tittle{
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 85%;
+}
+
+.more {
+  background-color:;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 75%;
+  margin: 4mm;
+  text-align: justify;
+  transition:; 
+  transform: ;
 }
 
 
