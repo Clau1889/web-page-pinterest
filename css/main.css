@@ -24,6 +24,15 @@ header > navbar {
 }
 
 .word{
-  border-left: 0.1mm solid #000000;
-  margin: 0.5cm;
+  margin: 0.3cm;
+}
+
+.col{
+  float: left;
+  margin: 0 2cm 1cm 2cm;
+
+}
+
+.pin{
+  margin-bottom: 0.3cm;
 }
