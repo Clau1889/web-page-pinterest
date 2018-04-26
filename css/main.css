@@ -1,0 +1,29 @@
+body{
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #00CED1;
+}
+
+header > *{
+  display: inline-block;
+  text-align: center;
+}
+
+header > h1{
+  width: 12%;
+}
+
+header > form{
+  width: 65%;
+}
+
+header > navbar {
+  width: 20%;
+}
+
+.word{
+  border-left: 0.1mm solid #000000;
+  margin: 0.5cm;
+}
