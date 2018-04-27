@@ -65,9 +65,10 @@ nav > div *{
   display: inline-block;
   font-family: 'Federo', sans-serif;
   font-weight: bold;
-  margin: 0.5cm 1cm 0.1cm 1cm;
+  margin: 0.5cm 0.5cm 0.1cm 1cm;
   padding: 0.6cm;
   text-align: center;
+  width: 8%;
 }
 
   #menu a:hover{
