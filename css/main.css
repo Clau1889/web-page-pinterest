@@ -1,9 +1,13 @@
 body{
+  background-color: rgb(224, 237, 240);
   box-sizing: border-box;
 }
-
+/*barra de navegacion general*/
 header{
   background-color: #008080;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header > *{
@@ -11,22 +15,64 @@ header > *{
   text-align: center;
 }
 
+/*Logo pinterest*/
 header > h1{
   width: 12%;
 }
 
 i{
+  color: #FFFFFF;
   width: 150%;
 }
 
+/*Barra de menu */
+#menu a{
+  border: 0.2mm solid #ffffff;
+  border-radius:10%;
+  color: #136C68;
+  display: inline-block;
+  font-family: 'Federo', sans-serif;
+  font-weight: bold;
+  margin: 2.5cm 1.2cm 0.1cm 1cm;
+  padding: 0.6cm;
+  text-align: center;
+}
+
+  #menu a:hover{
+  border-radius: 10%; 
+  transform: scale(1.1);
+}
+
+.moda{
+  background-color: #3CDDD5;
+}
+
+.accesories{
+  background-color: #66fcff;
+}
+
+.tendence{
+  background-color: #00C9CC;
+}
+
+.footwear{
+  background-color: #67e4de;
+}
+
+.clothes{
+  background-color: #66fcff;
+}
+
+/*Formulario input*/
 #search{
   width: 60%;
 }
 
 header > form{
+  color: #FFFFFF;
   width: 65%;
 }
-
+/*Enlace navegacion*/
 header > nav{
   width: 20%;
 }
@@ -40,7 +86,7 @@ nav > div *{
   margin-top: 3mm;
   width:10%;
 }
-
+/*imagenes de columnas*/
 img{
   border-radius: 10%;
   width: 100%;
@@ -51,11 +97,11 @@ img{
   border-radius: 10%; 
   transform: scale3D(2.5);
 }
-
+/*Columnas columnas*/
 .col{
   float: left;
   left: 20%;
-  margin: 0.5cm 0.8cm;
+  margin: 0.3cm 0.8cm 0 0.8cm;
   width: 27%;
 }
 
