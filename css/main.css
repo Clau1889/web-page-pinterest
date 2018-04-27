@@ -5,7 +5,6 @@ body{
 /*barra de navegacion general*/
 header{
   background-color: #008080;
-  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -17,7 +16,7 @@ header > *{
 
 /*Logo pinterest*/
 header > h1{
-  width: 12%;
+  width: 10%;
 }
 
 i{
@@ -25,15 +24,46 @@ i{
   width: 150%;
 }
 
+/*Formulario input*/
+#search{
+  width: 60%;
+}
+
+a > i{
+  bottom: 0.46cm;
+  color: #d3d3d3;
+  float: left;
+  left: 1.81cm;
+  position: relative;
+  top: 0mm;
+  width: 2%;
+}
+header > form{
+  color: #FFFFFF;
+  width: 65%;
+}
+/*Enlace navegacion*/
+header > nav{
+  width: 20%;
+}
+
+nav > div *{
+  color: #FFFFFF;
+  float: left;
+  font-family: 'Reem Kufi', sans-serif;
+  margin: 0.1cm 1cm 0 0.2cm;
+  width:5%;
+}
+
 /*Barra de menu */
 #menu a{
-  border: 0.2mm solid #ffffff;
+  border: 0.4mm solid #ffffff;
   border-radius:10%;
   color: #136C68;
   display: inline-block;
   font-family: 'Federo', sans-serif;
   font-weight: bold;
-  margin: 2.5cm 1.2cm 0.1cm 1cm;
+  margin: 0.5cm 1cm 0.1cm 1cm;
   padding: 0.6cm;
   text-align: center;
 }
@@ -63,51 +93,30 @@ i{
   background-color: #66fcff;
 }
 
-/*Formulario input*/
-#search{
-  width: 60%;
-}
-
-header > form{
-  color: #FFFFFF;
-  width: 65%;
-}
-/*Enlace navegacion*/
-header > nav{
-  width: 20%;
-}
-
-nav > div *{
-  color: #FFFFFF;
-  float: left;
-  font-family: 'Reem Kufi', sans-serif;
-  margin-right:1cm;
-  margin-left: 2mm;
-  margin-top: 3mm;
-  width:10%;
-}
-/*imagenes de columnas*/
+/*columnas*/
 img{
   border-radius: 10%;
+  margin-bottom: 0.4cm;
   width: 100%;
 }
 
 .image:hover{
-  border: 2mm groove #FFFAFA;
   border-radius: 10%; 
-  transform: scale3D(2.5);
+  transform: scale(1.1);
 }
-/*Columnas columnas*/
+
 .col{
   float: left;
-  left: 20%;
-  margin: 0.3cm 0.8cm 0 0.8cm;
-  width: 27%;
+  margin: 0.4cm 0.8cm 0;
+  width: 26%;
 }
 
 .pin{
   margin-bottom: 0.3cm;
+  position: relative;
+  overflow: hidden;
 }
+
 
 .tittle{
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -115,14 +124,26 @@ img{
 }
 
 .more {
-  background-color:;
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0.5cm;
+  color: #ffffff;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 75%;
-  margin: 4mm;
+  padding: 4mm;
+  position: absolute;
   text-align: justify;
-  transition:; 
-  transform: ;
+  transform: translateY(145%);
 }
+
+.pin:hover .more{
+  border: 0.2mm solid #FFFFFF;
+  border-radius: 10%;
+  transform: translateY(0%);
+}
+
+
+
+
 
 
 
