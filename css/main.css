@@ -26,21 +26,19 @@ i{
 
 /*Formulario input*/
 #search{
-  width: 60%;
+  width: 45%;
 }
 
-a > i{
-  bottom: 0.4cm;
-  color: #d3d3d3;
-  float: right;
-  position: relative;
-  top: 0.1cm;
-  right: 5cm;
-  width: 2%;
-}
+
 header > form{
   color: #FFFFFF;
-  width: 65%;
+  width: 55%;
+}
+
+form > a {
+  color: #FFFFFF;
+  float: left;
+  margin-left: 4cm;
 }
 /*Enlace navegacion*/
 header > nav{
@@ -51,8 +49,7 @@ nav > div *{
   color: #FFFFFF;
   float: left;
   font-family: 'Reem Kufi', sans-serif;
-  margin-left: 2mm;
-  margin-right: 1cm;
+  margin-left: 1.2cm;
   margin-top: 3mm;
   width:10%;
 }
