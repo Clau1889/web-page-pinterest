@@ -30,12 +30,12 @@ i{
 }
 
 a > i{
-  bottom: 0.46cm;
+  bottom: 0.4cm;
   color: #d3d3d3;
-  float: left;
-  left: 1.81cm;
+  float: right;
   position: relative;
-  top: 0mm;
+  top: 0.1cm;
+  right: 5cm;
   width: 2%;
 }
 header > form{
@@ -51,8 +51,10 @@ nav > div *{
   color: #FFFFFF;
   float: left;
   font-family: 'Reem Kufi', sans-serif;
-  margin: 0.1cm 1cm 0 0.2cm;
-  width:5%;
+  margin-left: 2mm;
+  margin-right: 1cm;
+  margin-top: 3mm;
+  width:10%;
 }
 
 /*Barra de menu */
